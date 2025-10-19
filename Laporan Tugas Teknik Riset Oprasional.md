@@ -4,19 +4,36 @@
 
 ![](./image1.png)
 
-DiSusun Oleh:
 
-  -----------------------------------------------------------------------
-  NAMA                    : AHMAD HAITAMI
-  ----------------------- -----------------------------------------------
-  NIM                     : 231011401533
+<table>
+<thead>
+   	</tr>
+		<tr>
+		<th>Dosen Pengampu</th>
+		<th>: AGUNG PERDANANTO S.Kom, M.Kom.</th>
+	</tr>
+    <tr>
+		<th>DISusun Oleh</th>
+		<th></th>
+	</tr>
+	<tr>
+		<td>NAMA</td>
+		<td>: AHMAD HAITAMI</td>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>NIM</td>
+		<td>: 231011401533</td>
+	</tr>
+	<tr>
+		<td>KELAS</td>
+		<td>: 05TPLM009</td>
+</tbody>
+</table>
 
-  KELAS                   : 05TPLM009
-  -----------------------------------------------------------------------
 
-Dosen Pengampu:
 
-AGUNG PERDANANTO S.Kom, M.Kom.
 
 **TEKNIK INFORMATIKA**
 
@@ -159,16 +176,36 @@ dan Pengemasan.
 
 ## 1.2 Tabel Mesin dan Kapasitas
 
-  -------------------------------------------------------------------------
-  Lokasi Sumber Fungsi Utama        Simbol        Kapasitas Maksimal
-  Daya (Mesin)                      Kendala       (Jam/Minggu)Mesin
-  ------------- ------------------- ------------- -------------------------
-  Mesin M1      Pencampuran Adonan  Kendala 1     100 Jam
-
-  Mesin M2      Pemanggangan        Kendala 2     120 Jam
-
-  Mesin M3      Pengemasan Akhir    Kendala 3     90 Jam
-  -------------------------------------------------------------------------
+<table>
+<thead>
+	<tr>
+		<th>Lokasi Sumber Daya (Mesin)</th>
+		<th>Fungsi Utama</th>
+		<th>Simbol Kendala</th>
+		<th>Kapasitas Maksimal (Jam/Minggu)Mesin</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Mesin M1</td>
+		<td>Pencampuran Adonan</td>
+		<td>Kendala 1</td>
+		<td>100 Jam</td>
+	</tr>
+	<tr>
+		<td>Mesin M2</td>
+		<td>Pemanggangan</td>
+		<td>Kendala 2</td>
+		<td>120 Jam</td>
+	</tr>
+	<tr>
+		<td>Mesin M3</td>
+		<td>Pengemasan Akhir</td>
+		<td>Kendala 3</td>
+		<td>90 Jam</td>
+	</tr>
+</tbody>
+</table>
 
 Tabel ini mendefinisikan sumber daya utama (mesin) dan batas atas
 (kendala) ketersediaan waktu. Nilai dalam kolom Kapasitas Maksimal akan
@@ -177,18 +214,36 @@ Program Linier.
 
 ## 1.3 Tabel Produk dan Batasan Produksi
 
-  --------------------------------------------------------------------------
-  Produk                Variabel          Keuntungan/Unit   Batasan Minimum
-                        Keputusan                           Produksi
-                                                            (Unit/Minggu)
-  --------------------- ----------------- ----------------- ----------------
-  Produk A (Roti Manis) XA                ​Rp 5.000          1.000 unit
-
-  Produk B (Biskuit)    XB                ​Rp 7.000          500 unit
-
-  Produk C (Snack       XC                ​Rp 4.000          800 unit
-  Ringan)                                                   
-  --------------------------------------------------------------------------
+<table>
+<thead>
+	<tr>
+		<th>Produk</th>
+		<th>Variabel Keputusan</th>
+		<th>Keuntungan/Unit</th>
+		<th>Batasan Minimum Produksi (Unit/Minggu)</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Produk A (Roti Manis)</td>
+		<td>XA</td>
+		<td>​Rp 5.000</td>
+		<td>1.000 unit</td>
+	</tr>
+	<tr>
+		<td>Produk B (Biskuit)</td>
+		<td>XB</td>
+		<td>​Rp 7.000</td>
+		<td>500 unit</td>
+	</tr>
+	<tr>
+		<td>Produk C (Snack Ringan)</td>
+		<td>XC</td>
+		<td>​Rp 4.000</td>
+		<td>800 unit</td>
+	</tr>
+</tbody>
+</table>
 
 Kolom Keuntungan/Unit menjadi koefisien dalam Fungsi Tujuan (Maksimisasi
 Z). Kolom Batasan Minimum Produksi akan menjadi kendala *lower bound*
@@ -196,16 +251,36 @@ Z). Kolom Batasan Minimum Produksi akan menjadi kendala *lower bound*
 
 ## 1.4 Tabel Kebutuhan Waktu Produksi
 
-  -----------------------------------------------------------------------
-  Kebutuhan Waktu      Mesin M1 (100    Mesin M2 (120    Mesin M3 (90
-  (Jam/Unit)           Jam)             Jam)             Jam)
-  -------------------- ---------------- ---------------- ----------------
-  Produk A             0.015            0.025            0.010
-
-  Produk B             0.010            0.020            0.010
-
-  Produk C             0.005            0.010            0.015
-  -----------------------------------------------------------------------
+<table>
+<thead>
+	<tr>
+		<th>Kebutuhan Waktu (Jam/Unit)</th>
+		<th>Mesin M1 (100 Jam)</th>
+		<th>Mesin M2 (120 Jam)</th>
+		<th>Mesin M3 (90 Jam)</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Produk A</td>
+		<td>0.015</td>
+		<td>0.025</td>
+		<td>0.01</td>
+	</tr>
+	<tr>
+		<td>Produk B</td>
+		<td>0.01</td>
+		<td>0.02</td>
+		<td>0.01</td>
+	</tr>
+	<tr>
+		<td>Produk C</td>
+		<td>0.005</td>
+		<td>0.01</td>
+		<td>0.015</td>
+	</tr>
+</tbody>
+</table>
 
 Data ini adalah koefisien teknologi yang menunjukkan tingkat konsumsi
 waktu mesin oleh setiap produk. Nilai-nilai ini akan dikalikan dengan
@@ -288,24 +363,52 @@ XA​,XB​,XC​≥0
 
 ## 1.5 Ringkasan Model Program Linier
 
-  -----------------------------------------------------------------------
-  **Komponen**                **Notasi Matematika**
-  --------------------------- -------------------------------------------
-  Variabel Keputusan          XA​,XB​,XC​
 
-  Fungsi Tujuan               maxZ=5000XA​+7000XB​+4000XC​
+<table>
+<thead>
+	<tr>
+		<th>Komponen</th>
+		<th>Notasi Matematika</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Variabel Keputusan</td>
+		<td>XA,XB,XC</td>
+	</tr>
+	<tr>
+		<td>Fungsi Tujuan</td>
+		<td>maxZ=5000XA+7000XB+4000XC</td>
+	</tr>
+	<tr>
+		<td>Kendala Kapasitas</td>
+		<td>0.015XA+0.010XB+0.005XC≤100</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>0.025XA+0.020XB+0.010XC≤120</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>0.010XA+0.010XB+0.015XC≤90</td>
+	</tr>
+	<tr>
+		<td>Kendala Permintaan</td>
+		<td>XA≥1000</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>XB≥500</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>XC≥800</td>
+	</tr>
+	<tr>
+		<td>Kendala Non-Negatif</td>
+		<td>XA,XB,XC≥0</td>
+	</tr>
+</tbody>
+</table>
 
-  Kendala Kapasitas           0.015XA​+0.010XB​+0.005XC​≤100
 
-                              0.025XA​+0.020XB​+0.010XC​≤120
-
-                              0.010XA​+0.010XB​+0.015XC​≤90
-
-  Kendala Permintaan          XA​≥1000
-
-                              XB​≥500
-
-                              XC​≥800
-
-  Kendala Non-Negatif         XA​,XB​,XC​≥0
-  -----------------------------------------------------------------------
