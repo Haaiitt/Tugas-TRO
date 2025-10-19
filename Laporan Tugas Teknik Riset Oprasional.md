@@ -2,8 +2,7 @@
 
 **Mata Kuliah Teknik Riset Oprasional**
 
-![](./image1.png){width="2.6613188976377953in"
-height="2.5844160104986877in"}
+![](./image1.png)
 
 DiSusun Oleh:
 
