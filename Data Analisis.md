@@ -1,14 +1,37 @@
 
 # Tabel Mesin dan Kapasitas
-+-----------------------------------+--------------------+--------------------+----------------------------------------+
-| Lokasi Sumber Daya (Mesin)        | Fungsi Utama       | Simbol Kendala     | Kapasitas Maksimal (Jam/Minggu)Mesin   |
-+===================================+====================+====================+========================================+
-| Mesin M1                          | Pencampuran Adonan | Kendala 1          | 100 Jam                                |
-+-----------------------------------+--------------------+--------------------+----------------------------------------+
-| Mesin M2                          | Pemanggangan       | Kendala 2          | 120 Jam                                |
-+-----------------------------------+--------------------+--------------------+----------------------------------------+
-| Mesin M3                          | Pengemasan Akhir   | Kendala 3          | 90 Jam                                 |
-+-----------------------------------+--------------------+--------------------+----------------------------------------+
+
+<table>
+<thead>
+	<tr>
+		<th>Lokasi Sumber Daya (Mesin)</th>
+		<th>Fungsi Utama</th>
+		<th>Simbol Kendala</th>
+		<th>Kapasitas Maksimal (Jam/Minggu)Mesin</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>Mesin M1</td>
+		<td>Pencampuran Adonan</td>
+		<td>Kendala 1</td>
+		<td>100 Jam</td>
+	</tr>
+	<tr>
+		<td>Mesin M2</td>
+		<td>Pemanggangan</td>
+		<td>Kendala 2</td>
+		<td>120 Jam</td>
+	</tr>
+	<tr>
+		<td>Mesin M3</td>
+		<td>Pengemasan Akhir</td>
+		<td>Kendala 3</td>
+		<td>90 Jam</td>
+	</tr>
+</tbody>
+</table>
+
 
 # Tabel Produk dan Batasan Produksi
 +-----------------------------------+--------------------+--------------------+----------------------------------------+
